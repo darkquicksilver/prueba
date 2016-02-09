@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Prueba by darkquicksilver</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Prueba</h1>
+      <h2 class="project-tagline">Prueba de Templates</h2>
+      <a href="https://github.com/darkquicksilver/prueba" class="btn">View on GitHub</a>
+      <a href="https://github.com/darkquicksilver/prueba/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/darkquicksilver/prueba/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h2>
+<a id="nombre-del-componente" class="anchor" href="#nombre-del-componente" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Nombre del Componente</h2>
+
+<p>Una descripcion breve del componente. ¿Para que sirve?.  </p>
+
+<h2>
+<a id="implementación" class="anchor" href="#implementaci%C3%B3n" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Implementación</h2>
+
+<p>Como se efectua la implementacion del componente, incluye la declaracion de assets, estructura HTML e inizialización en JS.</p>
+
+<h3>
+<a id="declaración-de-assets-del-componente" class="anchor" href="#declaraci%C3%B3n-de-assets-del-componente" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Declaración de assets del componente.</h3>
+
+<div class="highlight highlight-text-html-basic"><pre><span class="pl-c">&lt;!-- CSS Global --&gt;</span>
+&lt;<span class="pl-ent">link</span> <span class="pl-e">rel</span>=<span class="pl-s"><span class="pl-pds">"</span>stylesheet<span class="pl-pds">"</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>global.css<span class="pl-pds">"</span></span>&gt;
+
+<span class="pl-c">&lt;!-- JS Global --&gt;</span>
+&lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>global.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</pre></div>
+
+<h3>
+<a id="declaracíon-del-html-del-componente" class="anchor" href="#declarac%C3%ADon-del-html-del-componente" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Declaracíon del HTML del componente.</h3>
+
+<div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>tim-componente<span class="pl-pds">"</span></span> <span class="pl-e">data-variable</span>=<span class="pl-s"><span class="pl-pds">"</span>valor1<span class="pl-pds">"</span></span>&gt;
+  &lt;<span class="pl-ent">div</span>&gt; Contenido  &lt;/<span class="pl-ent">div</span>&gt;
+  &lt;<span class="pl-ent">div</span>&gt; Contenido  &lt;/<span class="pl-ent">div</span>&gt;
+  &lt;<span class="pl-ent">div</span>&gt; Contenido  &lt;/<span class="pl-ent">div</span>&gt;
+  ...
+&lt;/<span class="pl-ent">div</span>&gt;</pre></div>
+
+<h3>
+<a id="llamada-del-componente-en-js" class="anchor" href="#llamada-del-componente-en-js" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Llamada del componente en JS</h3>
+
+<div class="highlight highlight-source-js"><pre><span class="pl-en">$</span>(<span class="pl-s"><span class="pl-pds">"</span>.tim-componente<span class="pl-pds">"</span></span>).<span class="pl-en">componente</span>();</pre></div>
+
+<h2>
+<a id="datos-de-configuración" class="anchor" href="#datos-de-configuraci%C3%B3n" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Datos de Configuración</h2>
+
+<p>Como se configura el componente, variables, tipo y descripcion.</p>
+
+<h3>
+<a id="opciones" class="anchor" href="#opciones" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Opciones</h3>
+
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>Default</th>
+<th>Tipo</th>
+<th>Descripcion</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>autoPlay</td>
+<td>false</td>
+<td>boolean</td>
+<td>Activa el autoplay</td>
+</tr>
+<tr>
+<td>navigation</td>
+<td>false</td>
+<td>boolean</td>
+<td>Muestra las flechas de navegacion</td>
+</tr>
+<tr>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr>
+<td>baseClass</td>
+<td>tim-componente</td>
+<td>string</td>
+<td>Clase que se añade para que funcione el componente</td>
+</tr>
+</tbody>
+</table>
+
+<h3>
+<a id="callbacks" class="anchor" href="#callbacks" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Callbacks</h3>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/darkquicksilver/prueba">Prueba</a> is maintained by <a href="https://github.com/darkquicksilver">darkquicksilver</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
